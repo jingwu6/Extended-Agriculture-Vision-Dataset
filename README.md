@@ -44,7 +44,7 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
  
  For example, to download the dataset in your current location, use:
   ```
- aws s3 cp  s3://intelinair-data-releases/agriculture-vision/TMLR_benchmarks_2023/ Path_to_Save --no-sign-request --recursive
+ aws s3 cp  s3://intelinair-data-releases/agriculture-vision/TMLR_benchmarks_2023/ . --no-sign-request --recursive
  ```
  
  
