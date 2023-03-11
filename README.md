@@ -18,7 +18,7 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
  
  ### Papers  <a name="Paper"></a>
  
- CVPR paper on TMLR:
+Paper on TMLR:
  
 [ ArXiv](https://arxiv.org/abs/2303.02460), TMLR 2020 Open Access
  
