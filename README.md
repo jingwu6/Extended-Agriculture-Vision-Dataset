@@ -20,15 +20,28 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
  
 Paper on TMLR:
  
-[ ArXiv](https://arxiv.org/abs/2303.02460), TMLR 2020 Open Access
+[TMLR](https://openreview.net/pdf?id=v5jwDLqfQo), [ArXiv](https://arxiv.org/abs/2303.02460),
  
  ```
- @article{wu2023extended,
-  title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
-  author={Wu, Jing and Pichler, David and Marley, Daniel and Wilson, David and Hovakimyan, Naira and Hobbs, Jennifer},
-  journal={arXiv preprint arXiv:2303.02460},
-  year={2023}
+@article{
+wu2023extended,
+title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
+author={Jing Wu and David Pichler and Daniel Marley and Naira Hovakimyan and David A Wilson and Jennifer Hobbs},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=v5jwDLqfQo},
+note={}
 }
+
+@article{wu2023extended,
+ title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
+ author={Wu, Jing and Pichler, David and Marley, Daniel and Wilson, David and Hovakimyan, Naira and Hobbs, Jennifer},
+ journal={arXiv preprint arXiv:2303.02460},
+ year={2023}
+}
+
+
  ```
  
  
