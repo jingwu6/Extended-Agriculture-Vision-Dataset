@@ -20,7 +20,7 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
  
 Paper on TMLR:
  
-[TMLR](https://openreview.net/pdf?id=v5jwDLqfQo), [ArXiv](https://arxiv.org/abs/2303.02460),
+[TMLR](https://openreview.net/pdf?id=v5jwDLqfQo), [ArXiv](https://arxiv.org/abs/2303.02460)
  
  ```
 @article{
