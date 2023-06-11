@@ -58,6 +58,10 @@ note={}
  aws s3 cp  s3://intelinair-data-releases/agriculture-vision/TMLR_benchmarks_2023/ . --no-sign-request --recursive
  ```
  
+  Previous supervised dataset can be downloaded with the following command:
+ ```
+ aws s3 cp s3://intelinair-data-releases/agriculture-vision/cvpr_challenge_2021/supervised supervised --no-sign-request --recursive
+ ```
  
  
  
