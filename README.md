@@ -18,7 +18,7 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
  
  ### Papers  <a name="Paper"></a>
  
-Paper on TMLR:
+Extended Agriculture-Vision on TMLR:
  
 [TMLR](https://openreview.net/pdf?id=v5jwDLqfQo), [ArXiv](https://arxiv.org/abs/2303.02460)
  
