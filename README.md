@@ -20,7 +20,11 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
  
 Extended Agriculture-Vision on TMLR:
  
-[TMLR](https://openreview.net/pdf?id=v5jwDLqfQo), [ArXiv](https://arxiv.org/abs/2303.02460)
+[TMLR](https://openreview.net/pdf?id=v5jwDLqfQo)
+
+[ArXiv](https://arxiv.org/abs/2303.02460)
+
+[Supplementary](https://openreview.net/attachment?id=v5jwDLqfQo&name=supplementary_material)
  
  ```
 @article{
