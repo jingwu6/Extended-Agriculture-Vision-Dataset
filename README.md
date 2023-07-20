@@ -8,6 +8,7 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
 ## Overview
  1. [Paper](#Paper)
  2. [Dataset](#Dataset)
+ 3. [Quick Start](#qick)
 
 
 <!--  3. [Pre-training](#Pre-training)
@@ -68,7 +69,48 @@ note={}
  ```
  
  
- 
- 
+### Quick Start on Pre-trained Weights  <a name="quick"></a>
+#### Pre-trained Models
 
- The data, paper and visualizations will be released soon. Stay tuned!
+Pre-trained models from Extended Agvision can be downloaded as follows:
+
+| architecture | link | 
+| ------------ | ---- | 
+| ResNet-18    | [download](https://zenodo.org/record/8170135/files/Res_18.pth?download=1) | 
+| ResNet-50    | [download](https://zenodo.org/record/8170160/files/Res_50.pth?download=1)   | 
+
+
+
+#### To Load Pre-trained Resnet-18 with RGBN (The same when applied to Resnet-50,101)
+```
+import torch
+import torchvision.transforms as transforms
+import torchvision.models as models
+
+# Create a new ResNet-18 model with four channels input
+resnet18_four_channels = models.resnet18(pretrained=False)
+resnet18_four_channels.conv1 = torch.nn.Conv2d(4, 64, kernel_size=7, stride=2, padding=3, bias=False)
+resnet18_four_channels = torch.nn.Sequential(*list(resnet18_four_channels.children())[:-1], nn.Flatten())
+
+# Load the saved weights into the new model
+resnet18_four_channels.load_state_dict(torch.load('Res_18.pth'))
+```
+
+#### To Load Pre-trained Resnet-18 with RGB (The same when applied to Resnet-50,101)
+```
+import torch
+import torchvision.transforms as transforms
+import torchvision.models as models
+
+# Create a new ResNet-18 model with three channels input
+resnet18_three_channels = models.resnet18(pretrained=False)
+resnet18_three_channels = torch.nn.Sequential(*list(resnet18_three_channels.children())[:-1], nn.Flatten())
+
+# Load the saved weights from the model with four channels
+saved_state_dict = torch.load('Res_18.pth')
+# Discard the extra channel in the weights (assuming the first channel needs to be discarded)
+saved_state_dict['0.weight'] = saved_state_dict['0.weight'][:, :-1, :, :]
+
+# Load the modified state_dict into the new model
+resnet18_three_channels.load_state_dict(saved_state_dict)
+```
