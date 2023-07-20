@@ -8,13 +8,9 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
 ## Overview
  1. [Paper](#Paper)
  2. [Dataset](#Dataset)
- 3. [Quick Start](#qick)
+ 3. [Quick Start](#Quick)
 
 
-<!--  3. [Pre-training](#Pre-training)
- 4. [Train_Segmentation](#Train_Segmentation)
- 5. [Code_Structure](#Structure)
- 6. [ToDo](#ToDo) -->
  
  
  ### Papers  <a name="Paper"></a>
@@ -69,15 +65,15 @@ note={}
  ```
  
  
-### Quick Start on Pre-trained Weights  <a name="quick"></a>
+### Quick Start on Pre-trained Weights  <a name="Quick"></a>
 #### Pre-trained Models
 
 Pre-trained models from Extended Agvision can be downloaded as follows:
 
-| architecture | link | 
-| ------------ | ---- | 
-| ResNet-18    | [download](https://zenodo.org/record/8170135/files/Res_18.pth?download=1) | 
-| ResNet-50    | [download](https://zenodo.org/record/8170160/files/Res_50.pth?download=1)   | 
+|Dataset          | Pre-trained Methods|Architecture | Link | 
+| ------- | :---------: | ------------ | ---- | 
+|Extended AgVision|MoCoV2 | ResNet-18    | [download](https://zenodo.org/record/8170135/files/Res_18.pth?download=1) | 
+|Extended AgVision|MoCoV2 | ResNet-50    | [download](https://zenodo.org/record/8170160/files/Res_50.pth?download=1)   | 
 
 
 
