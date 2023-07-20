@@ -75,7 +75,7 @@ note={}
 
 
 
-#### 3.2 To load pre-trained resnet-18 with RGBN channels (The same when applied to Resnet-50,101)
+#### 3.2 To load pre-trained ResNet-18 with RGBN channels (The same when applied to ResNet-50,101)
 ```
 import torch
 import torchvision.transforms as transforms
@@ -90,7 +90,7 @@ resnet18_four_channels = torch.nn.Sequential(*list(resnet18_four_channels.childr
 resnet18_four_channels.load_state_dict(torch.load('Res_18.pth'))
 ```
 
-#### 3.3 To load pre-trained resnet-18 with RGB channels (The same when applied to Resnet-50,101)
+#### 3.3 To load pre-trained ResNet-18 with RGB channels (The same when applied to ResNet-50,101)
 ```
 import torch
 import torchvision.transforms as transforms
