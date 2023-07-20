@@ -13,7 +13,7 @@ A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agricultur
 
  
  
- ### Papers  <a name="Paper"></a>
+ ### 1. Papers  <a name="Paper"></a>
  
 Extended Agriculture-Vision on TMLR:
  
@@ -47,7 +47,7 @@ note={}
  
  
  
- ### Dataset  <a name="Dataset"></a>
+ ### 2. Dataset  <a name="Dataset"></a>
  
  The Extended Agriculture-Vision can be downloaded with the following command:
  ```
@@ -65,7 +65,7 @@ note={}
  ```
  
  
-### Quick Start on Pre-trained Weights  <a name="Quick"></a>
+### 3. Quick Start on Pre-trained Weights  <a name="Quick"></a>
 #### Pre-trained Models
 
 Pre-trained models from Extended Agvision can be downloaded as follows:
