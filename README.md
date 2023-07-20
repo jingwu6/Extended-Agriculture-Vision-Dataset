@@ -66,9 +66,7 @@ note={}
  
  
 ### 3. Quick Start on Pre-trained Weights  <a name="Quick"></a>
-#### Pre-trained Models
-
-Pre-trained models from Extended Agvision can be downloaded as follows:
+#### 3.1 Pre-trained Models
 
 |Dataset          | Pre-trained Methods|Architecture | Link | 
 | ------- | :---------: | ------------ | ---- | 
@@ -77,7 +75,7 @@ Pre-trained models from Extended Agvision can be downloaded as follows:
 
 
 
-#### To Load Pre-trained Resnet-18 with RGBN (The same when applied to Resnet-50,101)
+#### 3.2 To load pre-trained resnet-18 with RGBN channels (The same when applied to Resnet-50,101)
 ```
 import torch
 import torchvision.transforms as transforms
@@ -92,7 +90,7 @@ resnet18_four_channels = torch.nn.Sequential(*list(resnet18_four_channels.childr
 resnet18_four_channels.load_state_dict(torch.load('Res_18.pth'))
 ```
 
-#### To Load Pre-trained Resnet-18 with RGB (The same when applied to Resnet-50,101)
+#### 3.3 To load pre-trained resnet-18 with RGB channels (The same when applied to Resnet-50,101)
 ```
 import torch
 import torchvision.transforms as transforms
