@@ -92,7 +92,7 @@ import torchvision.models as models
 # Create a new ResNet-18 model with four channels input
 resnet18_four_channels = models.resnet18(pretrained=False)
 resnet18_four_channels.conv1 = torch.nn.Conv2d(4, 64, kernel_size=7, stride=2, padding=3, bias=False)
-resnet18_four_channels = torch.nn.Sequential(*list(resnet18_four_channels.children())[:-1], nn.Flatten())
+resnet18_four_channels = torch.nn.Sequential(*list(resnet18_four_channels.children())[:-1], torch.nn.Flatten())
 
 # Load the saved weights into the new model
 resnet18_four_channels.load_state_dict(torch.load('Res_18.pth'))
@@ -106,7 +106,7 @@ import torchvision.models as models
 
 # Create a new ResNet-18 model with three channels input
 resnet18_three_channels = models.resnet18(pretrained=False)
-resnet18_three_channels = torch.nn.Sequential(*list(resnet18_three_channels.children())[:-1], nn.Flatten())
+resnet18_three_channels = torch.nn.Sequential(*list(resnet18_three_channels.children())[:-1], torch.nn.Flatten())
 
 # Load the saved weights from the model with four channels
 saved_state_dict = torch.load('Res_18.pth')
