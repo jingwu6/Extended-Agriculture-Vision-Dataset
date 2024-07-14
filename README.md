@@ -54,6 +54,10 @@ note={}
 
 https://www.dropbox.com/scl/fo/7yzzc8hqtvaki2y1md6h4/h?rlkey=su71dij6xfb964zfwe1d6kros&e=1&dl=0.
 
+This dataset also supports the CVPR challenge of AgVision 2024:
+
+https://www.agriculture-vision.com/agriculture-vision-2024/prize-challenge-2024
+
 
  #### To download the full dataset:
  
