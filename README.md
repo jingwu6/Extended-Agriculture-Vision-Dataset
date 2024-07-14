@@ -48,6 +48,14 @@ note={}
  
  
  ### 2. Dataset  <a name="Dataset"></a>
+
+
+ #### To download a subset of the full dataset, please use the following link:
+
+https://www.dropbox.com/scl/fo/7yzzc8hqtvaki2y1md6h4/h?rlkey=su71dij6xfb964zfwe1d6kros&e=1&dl=0.
+
+
+ #### To download the full dataset:
  
  The Extended Agriculture-Vision can be downloaded with the following command:
  ```
