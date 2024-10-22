@@ -1,51 +1,61 @@
 # Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis
 
-## Extended Agriculture-Vision (Published in TMLR):
+## News
 
-A continuous work of [Agriculture-Vision](https://github.com/SHI-Labs/Agriculture-Vision), with great collaborators to bring Agriculture and Computer Vision / AI communities together to benefit humanity!
+- **December 2023**: Extended Agriculture-Vision dataset now serves as a foundational dataset for the CVPR workshop challenge: Agriculture Vision. Learn more at [Agriculture Vision](https://www.agriculture-vision.com/).
+- **October 2023**: Extended Agriculture-Vision dataset now available for download! Check out the [Dataset section](#Dataset) below for more details.
+- **September 2023**: Our latest paper on the Extended Agriculture-Vision dataset has been published in TMLR! [Read the paper](https://openreview.net/pdf?id=v5jwDLqfQo).
 
+
+---
+
+
+## Extended Agriculture-Vision (Published in TMLR)
+
+A continuation of [Agriculture-Vision](https://github.com/SHI-Labs/Agriculture-Vision), with great collaborators to unite the Agriculture and Computer Vision/AI communities to benefit humanity.
+
+---
 
 ## Overview
- 1. [Paper](#Paper)
- 2. [Dataset](#Dataset)
- 3. [Quick Start](#Quick)
 
+1. [Papers](#Paper)  
+2. [Dataset](#Dataset)  
+3. [Quick Start](#Quick)
 
- 
- 
- ### 1. Papers  <a name="Paper"></a>
- 
-Extended Agriculture-Vision on TMLR:
- 
-[TMLR](https://openreview.net/pdf?id=v5jwDLqfQo)
+---
 
-[ArXiv](https://arxiv.org/abs/2303.02460)
+### 1. Papers <a name="Paper"></a>
 
-[Supplementary](https://openreview.net/attachment?id=v5jwDLqfQo&name=supplementary_material)
- 
- ```
+**Extended Agriculture-Vision on TMLR:**
+
+- [TMLR](https://openreview.net/pdf?id=v5jwDLqfQo)  
+- [ArXiv](https://arxiv.org/abs/2303.02460)  
+- [Supplementary](https://openreview.net/attachment?id=v5jwDLqfQo&name=supplementary_material)
+
+```bibtex
 @article{
-wu2023extended,
-title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
-author={Jing Wu and David Pichler and Daniel Marley and Naira Hovakimyan and David A Wilson and Jennifer Hobbs},
-journal={Transactions on Machine Learning Research},
-issn={2835-8856},
-year={2023},
-url={https://openreview.net/forum?id=v5jwDLqfQo},
-note={}
+  wu2023extended,
+  title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
+  author={Jing Wu and David Pichler and Daniel Marley and Naira Hovakimyan and David A Wilson and Jennifer Hobbs},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2023},
+  url={https://openreview.net/forum?id=v5jwDLqfQo},
+  note={}
 }
 
-@article{wu2023extended,
- title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
- author={Wu, Jing and Pichler, David and Marley, Daniel and Wilson, David and Hovakimyan, Naira and Hobbs, Jennifer},
- journal={arXiv preprint arXiv:2303.02460},
- year={2023}
+@article{
+  wu2023extended,
+  title={Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis},
+  author={Wu, Jing and Pichler, David and Marley, Daniel and Wilson, David and Hovakimyan, Naira and Hobbs, Jennifer},
+  journal={arXiv preprint arXiv:2303.02460},
+  year={2023}
 }
+
  ```
  
  
- 
- 
+ ---
  
  ### 2. Dataset  <a name="Dataset"></a>
 
@@ -75,7 +85,7 @@ https://www.agriculture-vision.com/agriculture-vision-2024/prize-challenge-2024
  ```
  aws s3 cp s3://intelinair-data-releases/agriculture-vision/cvpr_challenge_2021/supervised supervised --no-sign-request --recursive
  ```
- 
+ ---
  
 ### 3. Quick Start on Pre-trained Weights  <a name="Quick"></a>
 #### 3.1 Pre-trained Models
