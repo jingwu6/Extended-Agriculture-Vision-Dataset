@@ -1,6 +1,6 @@
-# Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis
+### Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis
 
-## News
+### News
 
 - **December 2023**: Extended Agriculture-Vision dataset now serves as a foundational dataset for the CVPR workshop challenge: Agriculture Vision. Learn more at [Agriculture Vision](https://www.agriculture-vision.com/).
 - **October 2023**: Extended Agriculture-Vision dataset now available for download! Check out the [Dataset section](#Dataset) below for more details.
@@ -10,13 +10,13 @@
 ---
 
 
-## Extended Agriculture-Vision (Published in TMLR)
+### Extended Agriculture-Vision (Published in TMLR)
 
 A continuation of [Agriculture-Vision](https://github.com/SHI-Labs/Agriculture-Vision), with great collaborators to unite the Agriculture and Computer Vision/AI communities to benefit humanity.
 
 ---
 
-## Overview
+### Overview
 
 1. [Papers](#Paper)  
 2. [Dataset](#Dataset)  
@@ -24,7 +24,7 @@ A continuation of [Agriculture-Vision](https://github.com/SHI-Labs/Agriculture-V
 
 ---
 
-### 1. Papers <a name="Paper"></a>
+#### 1. Papers <a name="Paper"></a>
 
 **Extended Agriculture-Vision on TMLR:**
 
