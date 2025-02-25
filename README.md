@@ -3,25 +3,25 @@
 A comprehensive aerial image dataset for agricultural pattern analysis, extending the original [Agriculture-Vision](https://github.com/SHI-Labs/Agriculture-Vision) project. This dataset bridges the gap between Agriculture and Computer Vision/AI communities to advance agricultural technology.
 
 ## 🎯 Latest Updates
-
-- **December 2023**: Dataset selected as foundation for CVPR workshop challenge: [Agriculture Vision 2024](https://www.agriculture-vision.com/)
+- **Feb 2025**: Dataset selected as the foundation dataset for 6th CVPR workshop challenge: [Agriculture Vision 2025](https://www.agriculture-vision.com/)
+- **December 2023**: Dataset selected as the foundation dataset for 5yth CVPR workshop challenge: [Agriculture Vision 2024](https://www.agriculture-vision.com/)
 - **October 2023**: Full dataset release
 - **September 2023**: Research paper published in [TMLR](https://openreview.net/pdf?id=v5jwDLqfQo)
 
 ## 📚 Dataset Access
 
-### Quick Download (Challenge Subset)
-Access the dataset subset supporting AgVision 2024 Challenge via [Dropbox](https://www.dropbox.com/scl/fo/7yzzc8hqtvaki2y1md6h4/h?rlkey=su71dij6xfb964zfwe1d6kros&e=1&dl=0).
+### Quick Download (Challenge Subset for 2024)
+Access the dataset subset supporting the AgVision 2024 Challenge via [Dropbox](https://www.dropbox.com/scl/fo/7yzzc8hqtvaki2y1md6h4/h?rlkey=su71dij6xfb964zfwe1d6kros&e=1&dl=0).
 
 ### Full Dataset Download
 Use AWS CLI to download the complete Extended Agriculture-Vision dataset:
 
 ```bash
-# Download complete TMLR 2023 dataset
+# Download the complete TMLR 2023 dataset
 aws s3 cp s3://intelinair-data-releases/agriculture-vision/TMLR_benchmarks_2023/ . \
     --no-sign-request --recursive
 
-# Download previous supervised dataset (2021)
+# Download the previous supervised dataset (2021)
 aws s3 cp s3://intelinair-data-releases/agriculture-vision/cvpr_challenge_2021/supervised \
     supervised --no-sign-request --recursive
 ```
